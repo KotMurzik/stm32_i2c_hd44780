@@ -1,0 +1,652 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+lcdi2c              0x8               ..\obj\LiquidCrystal_I2C.o
+i2c                 0x10              ..\obj\I2C.o
+i2c_gpio            0x4               ..\obj\I2C.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\delay.o
+ .data          0x00000000        0x0 ..\obj\delay.o
+ .bss           0x00000000        0x0 ..\obj\delay.o
+ .text          0x00000000        0x0 ..\obj\startup_stm32f10x_md_vl.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f10x_md_vl.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f10x_md_vl.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f10x.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f10x.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f10x.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xd4 ..\obj\system_stm32f10x.o
+ .text          0x00000000        0x0 ..\obj\LiquidCrystal_I2C.o
+ .data          0x00000000        0x0 ..\obj\LiquidCrystal_I2C.o
+ .bss           0x00000000        0x0 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_noDisplay
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_noCursor
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_cursor
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_noBlink
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_blink
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_scrollDisplayLeft
+                0x00000000        0xc ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_scrollDisplayRight
+                0x00000000        0xc ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_leftToRight
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_rightToLeft
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_autoscroll
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_noAutoscroll
+                0x00000000       0x28 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_noBacklight
+                0x00000000       0x18 ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_cursor_on
+                0x00000000        0xc ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_cursor_off
+                0x00000000        0xc ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_blink_on
+                0x00000000        0xc ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_blink_off
+                0x00000000        0xc ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_load_custom_character
+                0x00000000       0x1c ..\obj\LiquidCrystal_I2C.o
+ .text.LCDI2C_setBacklight
+                0x00000000       0x20 ..\obj\LiquidCrystal_I2C.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_gpio.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_gpio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xe4 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x18 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x28 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x34 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x34 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x30 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x48 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x20 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0xe0 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x7c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_rcc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x64 ..\obj\stm32f10x_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x5c ..\obj\stm32f10x_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 ..\obj\stm32f10x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PREDIV1Config
+                0x00000000       0x40 ..\obj\stm32f10x_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x48 ..\obj\stm32f10x_rcc.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x1c ..\obj\stm32f10x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 ..\obj\stm32f10x_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x24 ..\obj\stm32f10x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x74 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c ..\obj\stm32f10x_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text          0x00000000        0x0 ..\obj\I2C.o
+ .data          0x00000000        0x0 ..\obj\I2C.o
+ .bss           0x00000000        0x0 ..\obj\I2C.o
+ .text.I2C_ReadData
+                0x00000000       0x30 ..\obj\I2C.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_i2c.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_i2c.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x44 ..\obj\stm32f10x_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x3c ..\obj\stm32f10x_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0x48 ..\obj\stm32f10x_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000       0x1c ..\obj\stm32f10x_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x30 ..\obj\stm32f10x_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x44 ..\obj\stm32f10x_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_PECPositionConfig
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_GetPEC
+                0x00000000       0x20 ..\obj\stm32f10x_i2c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x40 ..\obj\stm32f10x_i2c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x44 ..\obj\stm32f10x_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000       0x2c ..\obj\stm32f10x_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x5c ..\obj\stm32f10x_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000       0x2c ..\obj\stm32f10x_i2c.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00020000         xr
+ram              0x20000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20002000                _eram = 0x20002000
+
+.text           0x08000000     0x1104
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x124 ..\obj\startup_stm32f10x_md_vl.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.Delay    0x08000124       0x3c ..\obj\delay.o
+                0x08000124                Delay
+ .text.DelayMC  0x08000160       0x3c ..\obj\delay.o
+                0x08000160                DelayMC
+ .text.Default_Reset_Handler
+                0x0800019c       0x60 ..\obj\startup_stm32f10x_md_vl.o
+                0x0800019c                Default_Reset_Handler
+                0x0800019c                Reset_Handler
+ .text.Default_Handler
+                0x080001fc        0x8 ..\obj\startup_stm32f10x_md_vl.o
+                0x080001fc                EXTI2_IRQHandler
+                0x080001fc                DebugMon_Handler
+                0x080001fc                TIM1_CC_IRQHandler
+                0x080001fc                HardFault_Handler
+                0x080001fc                SysTick_Handler
+                0x080001fc                PVD_IRQHandler
+                0x080001fc                PendSV_Handler
+                0x080001fc                NMI_Handler
+                0x080001fc                EXTI3_IRQHandler
+                0x080001fc                EXTI0_IRQHandler
+                0x080001fc                I2C2_EV_IRQHandler
+                0x080001fc                TIM1_UP_TIM16_IRQHandler
+                0x080001fc                UsageFault_Handler
+                0x080001fc                SPI1_IRQHandler
+                0x080001fc                TAMPER_IRQHandler
+                0x080001fc                TIM6_DAC_IRQHandler
+                0x080001fc                DMA1_Channel4_IRQHandler
+                0x080001fc                ADC1_IRQHandler
+                0x080001fc                USART3_IRQHandler
+                0x080001fc                RTC_IRQHandler
+                0x080001fc                DMA1_Channel7_IRQHandler
+                0x080001fc                TIM4_IRQHandler
+                0x080001fc                I2C1_EV_IRQHandler
+                0x080001fc                DMA1_Channel6_IRQHandler
+                0x080001fc                TIM3_IRQHandler
+                0x080001fc                RCC_IRQHandler
+                0x080001fc                DMA1_Channel1_IRQHandler
+                0x080001fc                CEC_IRQHandler
+                0x080001fc                EXTI15_10_IRQHandler
+                0x080001fc                TIM7_IRQHandler
+                0x080001fc                EXTI9_5_IRQHandler
+                0x080001fc                SPI2_IRQHandler
+                0x080001fc                MemManage_Handler
+                0x080001fc                SVC_Handler
+                0x080001fc                DMA1_Channel5_IRQHandler
+                0x080001fc                EXTI4_IRQHandler
+                0x080001fc                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080001fc                DMA1_Channel3_IRQHandler
+                0x080001fc                WWDG_IRQHandler
+                0x080001fc                TIM2_IRQHandler
+                0x080001fc                EXTI1_IRQHandler
+                0x080001fc                RTCAlarm_IRQHandler
+                0x080001fc                USART2_IRQHandler
+                0x080001fc                I2C2_ER_IRQHandler
+                0x080001fc                DMA1_Channel2_IRQHandler
+                0x080001fc                FLASH_IRQHandler
+                0x080001fc                BusFault_Handler
+                0x080001fc                USART1_IRQHandler
+                0x080001fc                I2C1_ER_IRQHandler
+                0x080001fc                TIM1_BRK_TIM15_IRQHandler
+ .text.SystemInit
+                0x08000204       0x6c ..\obj\system_stm32f10x.o
+                0x08000204                SystemInit
+ .text.SetSysClock
+                0x08000270        0xc ..\obj\system_stm32f10x.o
+ .text.SetSysClockTo24
+                0x0800027c       0xd4 ..\obj\system_stm32f10x.o
+ .text.LCDI2C_write
+                0x08000350       0x1c ..\obj\LiquidCrystal_I2C.o
+                0x08000350                LCDI2C_write
+ .text.LCDI2C_init
+                0x0800036c       0x4c ..\obj\LiquidCrystal_I2C.o
+                0x0800036c                LCDI2C_init
+ .text.LCDI2C_begin
+                0x080003b8       0xb0 ..\obj\LiquidCrystal_I2C.o
+                0x080003b8                LCDI2C_begin
+ .text.LCDI2C_clear
+                0x08000468       0x14 ..\obj\LiquidCrystal_I2C.o
+                0x08000468                LCDI2C_clear
+ .text.LCDI2C_home
+                0x0800047c       0x14 ..\obj\LiquidCrystal_I2C.o
+                0x0800047c                LCDI2C_home
+ .text.LCDI2C_setCursor
+                0x08000490       0x60 ..\obj\LiquidCrystal_I2C.o
+                0x08000490                LCDI2C_setCursor
+ .text.LCDI2C_display
+                0x080004f0       0x28 ..\obj\LiquidCrystal_I2C.o
+                0x080004f0                LCDI2C_display
+ .text.LCDI2C_createChar
+                0x08000518       0x50 ..\obj\LiquidCrystal_I2C.o
+                0x08000518                LCDI2C_createChar
+ .text.LCDI2C_backlight
+                0x08000568       0x18 ..\obj\LiquidCrystal_I2C.o
+                0x08000568                LCDI2C_backlight
+ .text.LCDI2C_command
+                0x08000580       0x1c ..\obj\LiquidCrystal_I2C.o
+                0x08000580                LCDI2C_command
+ .text.LCDI2C_send
+                0x0800059c       0x40 ..\obj\LiquidCrystal_I2C.o
+                0x0800059c                LCDI2C_send
+ .text.LCDI2C_write4bits
+                0x080005dc       0x20 ..\obj\LiquidCrystal_I2C.o
+                0x080005dc                LCDI2C_write4bits
+ .text.LCDI2C_expanderWrite
+                0x080005fc       0x40 ..\obj\LiquidCrystal_I2C.o
+                0x080005fc                LCDI2C_expanderWrite
+ .text.LCDI2C_pulseEnable
+                0x0800063c       0x38 ..\obj\LiquidCrystal_I2C.o
+                0x0800063c                LCDI2C_pulseEnable
+ .text.LCDI2C_write_String
+                0x08000674       0x34 ..\obj\LiquidCrystal_I2C.o
+                0x08000674                LCDI2C_write_String
+ .text.GPIO_Init
+                0x080006a8      0x178 ..\obj\stm32f10x_gpio.o
+                0x080006a8                GPIO_Init
+ .text.strlen   0x08000820       0x30 ..\obj\main.o
+                0x08000820                strlen
+ .text.strrev   0x08000850       0x80 ..\obj\main.o
+                0x08000850                strrev
+ .text.itoa     0x080008d0       0x84 ..\obj\main.o
+                0x080008d0                itoa
+ .text.displayKeyCodes
+                0x08000954       0xa0 ..\obj\main.o
+                0x08000954                displayKeyCodes
+ .text.main     0x080009f4       0x64 ..\obj\main.o
+                0x080009f4                main
+ .text.RCC_GetClocksFreq
+                0x08000a58      0x15c ..\obj\stm32f10x_rcc.o
+                0x08000a58                RCC_GetClocksFreq
+ .text.RCC_APB2PeriphClockCmd
+                0x08000bb4       0x3c ..\obj\stm32f10x_rcc.o
+                0x08000bb4                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08000bf0       0x3c ..\obj\stm32f10x_rcc.o
+                0x08000bf0                RCC_APB1PeriphClockCmd
+ .text.init_I2C1
+                0x08000c2c       0x88 ..\obj\I2C.o
+                0x08000c2c                init_I2C1
+ .text.I2C_StartTransmission
+                0x08000cb4       0x8c ..\obj\I2C.o
+                0x08000cb4                I2C_StartTransmission
+ .text.I2C_WriteData
+                0x08000d40       0x30 ..\obj\I2C.o
+                0x08000d40                I2C_WriteData
+ .text.I2C_Init
+                0x08000d70      0x184 ..\obj\stm32f10x_i2c.o
+                0x08000d70                I2C_Init
+ .text.I2C_Cmd  0x08000ef4       0x40 ..\obj\stm32f10x_i2c.o
+                0x08000ef4                I2C_Cmd
+ .text.I2C_GenerateSTART
+                0x08000f34       0x40 ..\obj\stm32f10x_i2c.o
+                0x08000f34                I2C_GenerateSTART
+ .text.I2C_GenerateSTOP
+                0x08000f74       0x40 ..\obj\stm32f10x_i2c.o
+                0x08000f74                I2C_GenerateSTOP
+ .text.I2C_SendData
+                0x08000fb4       0x20 ..\obj\stm32f10x_i2c.o
+                0x08000fb4                I2C_SendData
+ .text.I2C_Send7bitAddress
+                0x08000fd4       0x3c ..\obj\stm32f10x_i2c.o
+                0x08000fd4                I2C_Send7bitAddress
+ .text.I2C_CheckEvent
+                0x08001010       0x60 ..\obj\stm32f10x_i2c.o
+                0x08001010                I2C_CheckEvent
+ .text.I2C_GetFlagStatus
+                0x08001070       0x68 ..\obj\stm32f10x_i2c.o
+                0x08001070                I2C_GetFlagStatus
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x080010d8       0x10 ..\obj\LiquidCrystal_I2C.o
+ .rodata        0x080010e8       0x1c ..\obj\main.o
+ *(.eh_fram e*)
+
+.glue_7         0x08001104        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08001104        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08001104        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08001104        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08001104        0x0
+ .iplt          0x00000000        0x0 ..\obj\delay.o
+
+.rel.dyn        0x08001104        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\delay.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08001104                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08001104                __exidx_end = .
+                0x08001104                __etext = .
+                0x08001104                _sidata = __etext
+
+.data           0x20000000       0x44 load address 0x08001104
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000       0x30 ..\obj\main.o
+                0x20000000                bell
+ .data          0x20000030       0x14 ..\obj\stm32f10x_rcc.o
+                0x20000044                . = ALIGN (0x4)
+                0x20000044                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000044                PROVIDE (__preinit_array_end, .)
+                0x20000044                . = ALIGN (0x4)
+                0x20000044                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x20000044                PROVIDE (__init_array_end, .)
+                0x20000044                . = ALIGN (0x4)
+                0x20000044                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x20000044                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000044                . = ALIGN (0x4)
+                0x20000044                __data_end__ = .
+                0x20000044                _edata = __data_end__
+
+.igot.plt       0x20000044        0x0 load address 0x08001148
+ .igot.plt      0x00000000        0x0 ..\obj\delay.o
+
+.bss            0x20000044       0x1c load address 0x08001148
+                0x20000044                . = ALIGN (0x4)
+                0x20000044                __bss_start__ = .
+                0x20000044                _sbss = __bss_start__
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20000044        0x8 ..\obj\LiquidCrystal_I2C.o
+                0x20000044                lcdi2c
+ COMMON         0x2000004c       0x14 ..\obj\I2C.o
+                0x2000004c                i2c
+                0x2000005c                i2c_gpio
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                __bss_end__ = .
+                0x20000060                _ebss = __bss_end__
+
+.heap           0x20000060        0x0
+                0x20000060                __end__ = .
+                0x20000060                _end = __end__
+                0x20000060                end = __end__
+ *(.heap*)
+                0x20000060                __HeapLimit = .
+
+.co_stack       0x20000060      0x400 load address 0x08001164
+                0x20000060                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000060      0x400 ..\obj\startup_stm32f10x_md_vl.o
+                0x20000060                pulStack
+                0x20002000                __StackTop = (ORIGIN (ram) + 0x2000)
+                0x20001c00                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20002000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\delay.o
+LOAD ..\obj\startup_stm32f10x_md_vl.o
+LOAD ..\obj\system_stm32f10x.o
+LOAD ..\obj\LiquidCrystal_I2C.o
+LOAD ..\obj\stm32f10x_gpio.o
+LOAD ..\obj\main.o
+LOAD ..\obj\stm32f10x_rcc.o
+LOAD ..\obj\I2C.o
+LOAD ..\obj\stm32f10x_i2c.o
+START GROUP
+LOAD c:/gcc/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a
+LOAD c:/gcc/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/gcc/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(i2c.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x2ecb
+ .debug_info    0x00000000      0x17f ..\obj\delay.o
+ .debug_info    0x0000017f       0xe9 ..\obj\startup_stm32f10x_md_vl.o
+ .debug_info    0x00000268      0x41a ..\obj\system_stm32f10x.o
+ .debug_info    0x00000682      0x6d1 ..\obj\LiquidCrystal_I2C.o
+ .debug_info    0x00000d53      0x6e7 ..\obj\stm32f10x_gpio.o
+ .debug_info    0x0000143a      0x24f ..\obj\main.o
+ .debug_info    0x00001689      0x8fa ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00001f83      0x448 ..\obj\I2C.o
+ .debug_info    0x000023cb      0xb00 ..\obj\stm32f10x_i2c.o
+
+.debug_abbrev   0x00000000      0xc16
+ .debug_abbrev  0x00000000       0xa1 ..\obj\delay.o
+ .debug_abbrev  0x000000a1       0xa7 ..\obj\startup_stm32f10x_md_vl.o
+ .debug_abbrev  0x00000148      0x14c ..\obj\system_stm32f10x.o
+ .debug_abbrev  0x00000294      0x212 ..\obj\LiquidCrystal_I2C.o
+ .debug_abbrev  0x000004a6      0x1c8 ..\obj\stm32f10x_gpio.o
+ .debug_abbrev  0x0000066e      0x12f ..\obj\main.o
+ .debug_abbrev  0x0000079d      0x1ba ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000957      0x15b ..\obj\I2C.o
+ .debug_abbrev  0x00000ab2      0x164 ..\obj\stm32f10x_i2c.o
+
+.debug_aranges  0x00000000      0x508
+ .debug_aranges
+                0x00000000       0x28 ..\obj\delay.o
+ .debug_aranges
+                0x00000028       0x28 ..\obj\startup_stm32f10x_md_vl.o
+ .debug_aranges
+                0x00000050       0x38 ..\obj\system_stm32f10x.o
+ .debug_aranges
+                0x00000088      0x120 ..\obj\LiquidCrystal_I2C.o
+ .debug_aranges
+                0x000001a8       0xa8 ..\obj\stm32f10x_gpio.o
+ .debug_aranges
+                0x00000250       0x40 ..\obj\main.o
+ .debug_aranges
+                0x00000290      0x120 ..\obj\stm32f10x_rcc.o
+ .debug_aranges
+                0x000003b0       0x38 ..\obj\I2C.o
+ .debug_aranges
+                0x000003e8      0x120 ..\obj\stm32f10x_i2c.o
+
+.debug_ranges   0x00000000      0x478
+ .debug_ranges  0x00000000       0x18 ..\obj\delay.o
+ .debug_ranges  0x00000018       0x18 ..\obj\startup_stm32f10x_md_vl.o
+ .debug_ranges  0x00000030       0x28 ..\obj\system_stm32f10x.o
+ .debug_ranges  0x00000058      0x110 ..\obj\LiquidCrystal_I2C.o
+ .debug_ranges  0x00000168       0x98 ..\obj\stm32f10x_gpio.o
+ .debug_ranges  0x00000200       0x30 ..\obj\main.o
+ .debug_ranges  0x00000230      0x110 ..\obj\stm32f10x_rcc.o
+ .debug_ranges  0x00000340       0x28 ..\obj\I2C.o
+ .debug_ranges  0x00000368      0x110 ..\obj\stm32f10x_i2c.o
+
+.debug_line     0x00000000     0x1824
+ .debug_line    0x00000000      0x17d ..\obj\delay.o
+ .debug_line    0x0000017d       0xac ..\obj\startup_stm32f10x_md_vl.o
+ .debug_line    0x00000229      0x1bb ..\obj\system_stm32f10x.o
+ .debug_line    0x000003e4      0x401 ..\obj\LiquidCrystal_I2C.o
+ .debug_line    0x000007e5      0x35f ..\obj\stm32f10x_gpio.o
+ .debug_line    0x00000b44      0x1b3 ..\obj\main.o
+ .debug_line    0x00000cf7      0x485 ..\obj\stm32f10x_rcc.o
+ .debug_line    0x0000117c      0x221 ..\obj\I2C.o
+ .debug_line    0x0000139d      0x487 ..\obj\stm32f10x_i2c.o
+
+.debug_str      0x00000000     0x13cb
+ .debug_str     0x00000000      0x1ae ..\obj\delay.o
+                                0x1f3 (size before relaxing)
+ .debug_str     0x000001ae       0xba ..\obj\startup_stm32f10x_md_vl.o
+                                0x151 (size before relaxing)
+ .debug_str     0x00000268      0x188 ..\obj\system_stm32f10x.o
+                                0x2e9 (size before relaxing)
+ .debug_str     0x000003f0      0x3e8 ..\obj\LiquidCrystal_I2C.o
+                                0x589 (size before relaxing)
+ .debug_str     0x000007d8      0x3ad ..\obj\stm32f10x_gpio.o
+                                0x528 (size before relaxing)
+ .debug_str     0x00000b85       0x6c ..\obj\main.o
+                                0x1b0 (size before relaxing)
+ .debug_str     0x00000bf1      0x3b6 ..\obj\stm32f10x_rcc.o
+                                0x67c (size before relaxing)
+ .debug_str     0x00000fa7       0xd6 ..\obj\I2C.o
+                                0x40d (size before relaxing)
+ .debug_str     0x0000107d      0x34e ..\obj\stm32f10x_i2c.o
+                                0x675 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ..\obj\delay.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\startup_stm32f10x_md_vl.o
+ .comment       0x00000000       0x71 ..\obj\system_stm32f10x.o
+ .comment       0x00000000       0x71 ..\obj\LiquidCrystal_I2C.o
+ .comment       0x00000000       0x71 ..\obj\stm32f10x_gpio.o
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\stm32f10x_rcc.o
+ .comment       0x00000000       0x71 ..\obj\I2C.o
+ .comment       0x00000000       0x71 ..\obj\stm32f10x_i2c.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\delay.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\startup_stm32f10x_md_vl.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\system_stm32f10x.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\LiquidCrystal_I2C.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\stm32f10x_gpio.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000132       0x33 ..\obj\stm32f10x_rcc.o
+ .ARM.attributes
+                0x00000165       0x33 ..\obj\I2C.o
+ .ARM.attributes
+                0x00000198       0x33 ..\obj\stm32f10x_i2c.o
+
+.debug_frame    0x00000000      0xf94
+ .debug_frame   0x00000000       0x50 ..\obj\delay.o
+ .debug_frame   0x00000050       0x48 ..\obj\startup_stm32f10x_md_vl.o
+ .debug_frame   0x00000098       0x80 ..\obj\system_stm32f10x.o
+ .debug_frame   0x00000118      0x3e0 ..\obj\LiquidCrystal_I2C.o
+ .debug_frame   0x000004f8      0x210 ..\obj\stm32f10x_gpio.o
+ .debug_frame   0x00000708       0xa8 ..\obj\main.o
+ .debug_frame   0x000007b0      0x3a4 ..\obj\stm32f10x_rcc.o
+ .debug_frame   0x00000b54       0x8c ..\obj\I2C.o
+ .debug_frame   0x00000be0      0x3b4 ..\obj\stm32f10x_i2c.o

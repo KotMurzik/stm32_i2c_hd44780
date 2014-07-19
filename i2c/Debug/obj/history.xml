@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\stm32+i2c+hd44780\cmsis -I..\..\..\workspace\stm32+i2c+hd44780\stm_lib -I..\..\..\workspace -I..\..\..\workspace\stm32+i2c+hd44780\cmsis_boot -I..\..\.. -I..\..\..\workspace\stm32+i2c+hd44780 -I..\..\..\workspace\stm32+i2c+hd44780\stm_lib\inc">
+      <target file="startup_stm32f10x_md_vl.o" lastModified="1474eb20ac3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="1474e3327d9"/>
+      </target>
+      <target file="LiquidCrystal_I2C.o" lastModified="1474eb20c59">
+         <source file="..\..\..\LiquidCrystal_I2C.c" lastModified="147368d5dc5"/>
+      </target>
+      <target file="I2C.o" lastModified="1474eb20db1">
+         <source file="..\..\..\I2C.c" lastModified="147368d5dbf"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1474eb20e1e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="1474e428260"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1474eb20b11">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1474e3327e2"/>
+      </target>
+      <target file="main.o" lastModified="1474eb20d05">
+         <source file="..\..\..\main.c" lastModified="1474ea02e70"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1474eb20cb7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1474e33d842"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1474eb20d63">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1474e3327d4"/>
+      </target>
+      <target file="delay.o" lastModified="1474eb20aa4">
+         <source file="..\..\..\delay.c" lastModified="147368d5dd1"/>
+      </target>
+   </processor>
+</history>

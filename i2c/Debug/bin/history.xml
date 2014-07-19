@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=i2c.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\i2c -TC:\CooCox\CoIDE\configuration\ProgramData\i2c/arm-gcc-link.ld -g">
+      <target file="i2c.elf" lastModified="1474eb20ff3">
+         <source file="..\obj\delay.o" lastModified="1474eb20aa4"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="1474eb20ac3"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1474eb20b11"/>
+         <source file="..\obj\LiquidCrystal_I2C.o" lastModified="1474eb20c59"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1474eb20cb7"/>
+         <source file="..\obj\main.o" lastModified="1474eb20d05"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1474eb20d63"/>
+         <source file="..\obj\I2C.o" lastModified="1474eb20db1"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="1474eb20e1e"/>
+      </target>
+   </processor>
+</history>
